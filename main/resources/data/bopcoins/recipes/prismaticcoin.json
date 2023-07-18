@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WW",
+    "WW"
+  ],
+  "key": {
+    "W": {
+      "item": "bopcoins:netheritecoin"
+    }
+  },
+  "result": {
+    "item": "bopcoins:prismaticcoin",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WW",
+    "WW"
+  ],
+  "key": {
+    "W": {
+      "item": "bopcoins:goldcoin"
+    }
+  },
+  "result": {
+    "item": "bopcoins:lemoncoin",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bopcoins:soofcoin"
+    }
+  ],
+  "result": {
+    "item": "bopcoins:shroomcoin",
+    "count": 4
+  }
+}
