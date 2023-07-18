@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bopcoins:prismaticcoin"
+    }
+  ],
+  "result": {
+    "item": "bopcoins:netheritecoin",
+    "count": 4
+  }
+}

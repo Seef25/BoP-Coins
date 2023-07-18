@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bopcoins:shroomcoin"
+    }
+  ],
+  "result": {
+    "item": "bopcoins:lemoncoin",
+    "count": 4
+  }
+}

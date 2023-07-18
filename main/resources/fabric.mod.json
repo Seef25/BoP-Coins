@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "bopcoins",
+	"version": "${version}",
+	"name": "BoP Coins",
+	"description": "Adds BoP Currency to minecraft!",
+	"authors": [
+		"Seef25",
+		"OdemTheLemon"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bopcoins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"band.of.pros.BoPCoins"
+		],
+		"Client": [
+			"band.of.pros.BoPCoinsClient"
+		],
+		"fabric-datagen": [
+			"band.of.pros.BoPCoinsDataGenerator"
+			]
+	},
+	        "mixin": [
+				"bopcoins.mixins.json",
+		{
+			"config": "bopcoins.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

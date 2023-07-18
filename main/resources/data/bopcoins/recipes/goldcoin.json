@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "WRW",
+    "SSS"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "bopcoins:goldcoin",
+    "count": 1
+  }
+}
